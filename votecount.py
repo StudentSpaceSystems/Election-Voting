@@ -12,7 +12,7 @@ run 'python votecount.py'
 import csv
 
 vote_table = []
-NO_CONFIDENCE = 'No Confidence'
+NO_CONFIDENCE = 'NC'
 
 def clean_table(table):
     '''removes unnecessary info from vote table and fixes incorrect votes'''
